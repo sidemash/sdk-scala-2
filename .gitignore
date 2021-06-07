@@ -1,0 +1,13 @@
+*.class
+*.log
+logs
+target
+/.idea
+/.bsp
+/*.iml
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/target
+/RUNNING_PID
