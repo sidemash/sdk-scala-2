@@ -27,7 +27,6 @@ scalacOptions ++= Seq(
   "-Xfuture"
 )
 
-
 homepage := Some(url("https://github.com/sidemash/sdk-scala-2"))
 scmInfo := Some(ScmInfo(url("https://github.com/sidemash/sdk-scala-2"), "git@github.com:sidemashcloud/sdk-scala-2.git"))
 developers := List(Developer(id = "sidemash", name = "Sidemash Cloud", email = "opensource@sidemash.com", url = url("https://github.com/sidemash")))
@@ -44,5 +43,5 @@ crossPaths := false
 // snapshot versions publish to sonatype snapshot repository
 // other versions publish to sonatype staging repository
 publishTo := sonatypePublishTo.value
-useGpg := true
+
 
